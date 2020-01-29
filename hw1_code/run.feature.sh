@@ -12,7 +12,7 @@ export PATH=$opensmile_path/bin:$PATH
 export LD_LIBRARY_PATH=$opensmile_path/lib:$LD_LIBRARY_PATH
 
 # Two additional variables
-video_path=../video   # path to the directory containing all the videos. In this example setup, we are linking all the videos to "../video"
+video_path=/home/ubuntu/11775-data/videos/   # path to the directory containing all the videos. In this example setup, we are linking all the videos to "../video"
 cluster_num=50        # the number of clusters in k-means. Note that 50 is by no means the optimal solution.
                       # You need to explore the best config by yourself.
 mkdir -p audio mfcc kmeans
@@ -37,8 +37,8 @@ done
 
 # In this part, we train a clustering model to cluster the MFCC vectors. In order to speed up the clustering process, we
 # select a small portion of the MFCC vectors. In the following example, we only select 20% randomly from each video. 
-echo "Pooling MFCCs (optional)"
-python scripts/select_frames.py list/train.video 0.2 select.mfcc.csv || exit 1;
+# echo "Pooling MFCCs (optional)"
+# python scripts/select_frames.py list/train.video 0.2 select.mfcc.csv || exit 1;
 
 # now trains a k-means model using the sklearn package
 echo "Training the k-means model"
