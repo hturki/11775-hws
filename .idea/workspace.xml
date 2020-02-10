@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90025113-4f42-4351-9ac9-ad744d77b805" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1_code/scripts/create_asrfeat_naive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1_code/scripts/create_label_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1_code/scripts/create_naive_vocab_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw1_code/run.feature.sh" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_code/run.feature.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_code/run.med.sh" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_code/run.med.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_code/scripts/create_asrfeat.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_code/scripts/create_asrfeat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_code/scripts/create_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_code/scripts/create_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_code/scripts/test_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_code/scripts/test_svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_code/scripts/train_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_code/scripts/train_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_code/scripts/train_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_code/scripts/train_svm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +42,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw1_code/scripts" />
     <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hw1_code/scripts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -94,6 +105,11 @@
       <option name="presentableId" value="Default" />
       <updated>1579740913606</updated>
       <workItem from="1579884697968" duration="6919000" />
+      <workItem from="1580315166887" duration="14171000" />
+      <workItem from="1580425231876" duration="2019000" />
+      <workItem from="1580652122853" duration="3969000" />
+      <workItem from="1580758291642" duration="20778000" />
+      <workItem from="1581112886793" duration="6376000" />
     </task>
     <servers />
   </component>
@@ -101,10 +117,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4294" y="185" key="SettingsEditor" timestamp="1579884819564">
+    <state x="2612" y="352" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581109970098">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2612" y="352" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/3840.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1581109970098" />
+    <state x="2374" y="185" key="SettingsEditor" timestamp="1581113364507">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="454" y="185" key="SettingsEditor/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1580652216357" />
+    <state x="454" y="192" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1580315367004" />
+    <state x="454" y="185" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1580566918197" />
+    <state x="2374" y="185" key="SettingsEditor/1920.0.1920.1040/3840.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1581113364507" />
+    <state x="4294" y="185" key="SettingsEditor/1920.0.1920.1040/3840.0.1920.1040/0.0.1920.1040@3840.0.1920.1040" timestamp="1579884819564" />
+    <state x="4041" y="142" width="1720" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581363724050">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4294" y="185" key="SettingsEditor/1920.0.1920.1040/3840.0.1920.1040/0.0.1920.1040@3840.0.1920.1040" timestamp="1579884819564" />
+    <state x="4041" y="142" width="1720" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1040/3840.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1581363724050" />
+    <state x="2537" y="134" width="686" height="795" key="find.popup" timestamp="1580323633316">
+      <screen x="0" y="0" width="5760" height="1080" />
+    </state>
+    <state x="2537" y="134" width="686" height="795" key="find.popup/0.0.5760.1080@0.0.5760.1080" timestamp="1580323633316" />
     <state x="4707" y="283" key="ftp.server.browser" timestamp="1579884753711">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>

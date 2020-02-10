@@ -1,12 +1,11 @@
 # 11775-hws
 
+HW 1 pipeline instructions
+
 Initial Steps: 
 ```
-git clone https://github.com/11775website/11775-hws
-
-cd /home/ubuntu
-mkdir videos
-sh run_download_video.sh all_video.lst ./videos
-mkdir asrs
-sh run_download_asr.sh all_asr.lst ./asrs
+git clone https://github.com/hturki/11775-hws
+cd 11775-hws/hw1_code
+sh run.feature.sh
+sh run.med.sh
 ```
